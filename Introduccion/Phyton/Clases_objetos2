@@ -1,0 +1,14 @@
+class Restaurant:
+
+    def __init__(self, Nombre, Categoria, Precio):
+        self.Nombre = Nombre
+        self.Categoria = Categoria
+        self.Precio = Precio
+    def mostrar_informacion(self):
+        print(f'Nombre: {self.Nombre}, Categoria: {self.Categoria}, Precio: {self.Precio}')
+         
+restaurant = Restaurant('pizzeria Mexico', 'Comida Italiana', '50')
+restaurant.mostrar_informacion()
+
+restaurant2 = Restaurant('Hamburgusas Python', 'Comida Casual', '20')
+restaurant2.mostrar_informacion()
